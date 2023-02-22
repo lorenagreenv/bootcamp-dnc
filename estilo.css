@@ -222,7 +222,7 @@
             color: var(--cinza-hover);
         }
 @media only screen and (max-width: 600px){
-
+    /*header */
     #principal{
         flex-direction: column;
         height: auto;
@@ -241,7 +241,7 @@
         width: 100%;
         margin: 0px;
     }
-
+    /*section*/
     section h1{
         font-size: 25px;
     }
@@ -256,6 +256,14 @@
     }
     .checkbox-itens label{
         font-size: 16px;
+    }
+    /*footer*/
+    footer .linha1{
+        flex-direction: column;
+    }
+    footer .endereço{
+        width: 95%;
+
     }
 
 }
